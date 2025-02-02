@@ -7,11 +7,8 @@ description: "Data Scientist | Machine Learning Engineer | AI Enthusiast"
 theme: jekyll-theme-minimal
 
 
-border-radius: 50%;
-width: 150px;
-height: 150px;
-object-fit: cover;
-   logo: "IMG-20241209-WA0108.jpg"
+
+logo: "IMG-20241209-WA0108.jpg"
 
 
 favicon: "favicon.ico"  # Add a custom favicon
