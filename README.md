@@ -1,13 +1,5 @@
-
-Here’s a sample **Data Science Portfolio** you can customize:
-
----
-
-# **[Your Name]**  
-Data Scientist | Machine Learning Expert | AI Enthusiast
-
 ### **Contact Information**
-- Email: [your.email@example.com]  
+- Email: ansali194700@gmail.com  
 - LinkedIn: [linkedin.com/in/yourprofile]  
 - GitHub: [github.com/yourprofile]  
 - Location: [City, Country]  
