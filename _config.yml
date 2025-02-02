@@ -6,16 +6,12 @@ title: "ANS ALI"
 description: "Data Scientist | Machine Learning Engineer | AI Enthusiast"
 theme: jekyll-theme-minimal
 
-<style>
-   img {
-       border-radius: 50%;
-       width: 150px;
-       height: 150px;
-       object-fit: cover;
-   }
-</style>
 
-logo: "IMG-20241209-WA0108.jpg"
+border-radius: 50%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+   logo: "IMG-20241209-WA0108.jpg"
 
 
 favicon: "favicon.ico"  # Add a custom favicon
