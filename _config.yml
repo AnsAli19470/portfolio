@@ -1,31 +1,11 @@
-#title: ANS ALI
-#theme: jekyll-theme-minimal
-#logo: 'IMG-20241209-WA0108.jpg'
 
 title: "ANS ALI"
 description: "Data Scientist | Machine Learning Engineer | AI Enthusiast"
-theme: jekyll-theme-minimal
-
-
+theme: "academic"
 
 logo: "IMG-20241209-WA0108.jpg"
 
 
-favicon: "favicon.ico"  # Add a custom favicon
-permalink: pretty  # Clean URLs without .html
 
-# Navigation Links
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects"
-  - title: "Blog"
-    url: "/blog"
-  - title: "Contact"
-    url: "/contact"
-
-
-keywords: "Data Science, Machine Learning, AI, Deep Learning, Python, Portfolio"
 
 
