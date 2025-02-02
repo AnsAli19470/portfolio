@@ -1,4 +1,4 @@
-### **Contact Information**
+## **Contact Information**
 - Email: ansali194700@gmail.com  
 - LinkedIn: www.linkedin.com/in/ans-ali-9b9029268   
 - Location: Taxila, Pakistan
