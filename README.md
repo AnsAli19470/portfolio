@@ -74,10 +74,9 @@ I am a passionate and results-driven Data Scientist with 1 years of experience i
 
 ## **Certifications**
 
-- **Certified Data Scientist | Data Science Association**  
-- **Deep Learning Specialization | Coursera (Andrew Ng)**  
+ - **Deep Learning Specialization | Coursera **  
 - **Machine Learning | Stanford University (Coursera)**  
-- **AWS Certified Machine Learning – Specialty**
+- **Python | University of Michigan (Coursera)**
 
 ---
 
@@ -95,34 +94,8 @@ I am a passionate and results-driven Data Scientist with 1 years of experience i
 - Applied unsupervised learning (K-means clustering) to segment customers for targeted marketing strategies.  
 - Successfully identified 5 distinct customer segments, helping marketing teams improve customer engagement by 40%.
 
----
 
-## **Publications & Research**
 
-- **"Predictive Analytics for Health Systems: A Machine Learning Approach"**  
-  Published in the *Journal of Health Informatics*  
-  - Focused on applying machine learning techniques to predict health risks and optimize healthcare delivery.
-
-- **"Deep Learning Models for Financial Market Prediction"**  
-  Published in *International Journal of Financial Engineering*  
-  - Explored the potential of deep learning models like CNN and RNN in stock market prediction.
-
----
-
-## **Awards & Honors**
-
-- **Best Data Science Project** – [Awarding Organization, Year]  
-- **Top 3 Finalist** – Data Science Global Competition – [Competition Name, Year]
-
----
-
-## **Volunteer Experience**
-
-### **Data Science Mentor | [Organization Name] | [Dates]**
-- Mentored a group of aspiring data scientists, helping them learn data analysis, machine learning, and data visualization techniques.
-- Guided students through real-world projects and provided career advice in the data science field.
-
----
 
 ## **Interests**
 
@@ -138,6 +111,3 @@ I am a passionate and results-driven Data Scientist with 1 years of experience i
 
 Available upon request.
 
----
-
-This structure can be used to present your expertise and achievements effectively. You can expand on each section with specific details of the projects you’ve worked on.
