@@ -7,15 +7,7 @@ description: "Data Scientist | Machine Learning Engineer | AI Enthusiast"
 theme: jekyll-theme-minimal
 logo: "IMG-20241209-WA0108.jpg"
 
-# Social Media Links
-github: "https://github.com/yourusername"
-linkedin: "https://linkedin.com/in/yourusername"
-twitter: "https://twitter.com/yourusername"
-email: "your.email@example.com"
 
-# Site Settings
-show_downloads: true  # Show a download link for repositories
-google_analytics: "UA-XXXXXXXXX-X"  # Add your Google Analytics ID for tracking
 favicon: "favicon.ico"  # Add a custom favicon
 permalink: pretty  # Clean URLs without .html
 
@@ -30,8 +22,7 @@ navigation:
   - title: "Contact"
     url: "/contact"
 
-# SEO Optimization
-author: "ANS ALI"
+
 keywords: "Data Science, Machine Learning, AI, Deep Learning, Python, Portfolio"
-timezone: "UTC"
+
 
