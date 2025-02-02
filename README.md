@@ -1,27 +1,26 @@
 ### **Contact Information**
 - Email: ansali194700@gmail.com  
-- LinkedIn: [linkedin.com/in/yourprofile]  
-- GitHub: [github.com/yourprofile]  
-- Location: [City, Country]  
+- LinkedIn: www.linkedin.com/in/ans-ali-9b9029268   
+- Location: Taxila, Pakistan
 
 ---
 
 ## **Summary**
 
-I am a passionate and results-driven Data Scientist with [X] years of experience in developing and deploying machine learning models to solve complex problems. With a strong background in statistics, computer science, and data engineering, I specialize in data preprocessing, building machine learning pipelines, feature engineering, and model evaluation. My work spans across industries, including healthcare, finance, and e-commerce. I am skilled in utilizing advanced algorithms to extract valuable insights and deliver actionable business solutions.
+I am a passionate and results-driven Data Scientist with 1 years of experience in developing and deploying machine learning models to solve complex problems. With a strong background in statistics, computer science, and data engineering, I specialize in data preprocessing, building machine learning pipelines, feature engineering, and model evaluation. My work spans across industries, including healthcare, finance, and e-commerce. I am skilled in utilizing advanced algorithms to extract valuable insights and deliver actionable business solutions.
 
 ---
 
 ## **Technical Skills**
 
-- **Programming Languages:** Python, R, SQL  
+- **Programming Languages:** Python, SQL  
 - **Machine Learning:** Supervised & Unsupervised Learning, Deep Learning, Reinforcement Learning, NLP, Time Series Forecasting  
 - **Libraries/Frameworks:** TensorFlow, Keras, scikit-learn, PyTorch, XGBoost, LightGBM, Pandas, Numpy, Matplotlib, Seaborn  
 - **Data Processing:** Data Preprocessing, Data Wrangling, Feature Engineering, Missing Data Imputation  
 - **Tools:** Jupyter, Git, Docker, VS Code, PowerBI, Tableau  
 - **Databases:** MySQL, PostgreSQL, MongoDB  
 - **Cloud:** AWS, Google Cloud Platform  
-- **Statistical Analysis:** Hypothesis Testing, A/B Testing, Regression Analysis, PCA, ANOVA
+
 
 ---
 
