@@ -5,6 +5,16 @@
 title: "ANS ALI"
 description: "Data Scientist | Machine Learning Engineer | AI Enthusiast"
 theme: jekyll-theme-minimal
+
+<style>
+   img {
+       border-radius: 50%;
+       width: 150px;
+       height: 150px;
+       object-fit: cover;
+   }
+</style>
+
 logo: "IMG-20241209-WA0108.jpg"
 
 
