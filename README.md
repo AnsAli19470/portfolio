@@ -44,25 +44,29 @@ I am a passionate and results-driven Data Scientist with 1 years of experience i
 - Deployed the model using **Flask and Streamlit**, allowing doctors and researchers to upload MRI scans for **real-time diagnosis**.  
 - Integrated the system into **cloud platforms (AWS/GCP)** for scalable and remote access to Alzheimer's detection services.
 
-### **Machine Learning Engineer | [Company Name] | [Dates]**
-- **Project 3:** *Healthcare Diagnostics System*  
-  - Led the development of an AI-powered diagnostics tool that predicts diseases based on patient symptoms and medical reports. Integrated with an app that allows real-time updates and prescription generation by doctors.
-  - Utilized deep learning models for image recognition and natural language processing (NLP) for extracting valuable information from medical reports.
 
-- **Project 4:** *Recommendation System for E-Commerce*  
-  - Built a collaborative filtering-based recommendation system for personalized product suggestions, increasing sales by 30% and customer engagement by 25%.
-  - Used collaborative filtering and matrix factorization techniques to process large datasets of user interactions and transactions.
+### **Project 3: Cats and Dogs Classification Using Transfer Learning**  
+- Developed an **image classification model** to distinguish between **cats and dogs** using **transfer learning** with pre-trained deep learning models.  
+- Utilized architectures like **VGG16, ResNet50, and MobileNet** to extract high-level features from images, significantly reducing training time while improving accuracy.  
+- Preprocessed the dataset by resizing images, normalizing pixel values, and applying **data augmentation** (rotation, flipping, and zooming) to enhance generalization.  
+- Achieved **98% accuracy** on the Kaggle **Cats vs. Dogs dataset**, outperforming traditional CNN models trained from scratch.  
+- Fine-tuned the last few layers of the pre-trained models to adapt them to the specific task while using **early stopping and learning rate scheduling** to prevent overfitting.  
+- Deployed the model as a **real-time web app** using **Flask and TensorFlow Serving**, allowing users to upload an image and receive instant classification results.  
+- Optimized the model for **mobile and edge devices** using **TensorFlow Lite**, enabling lightweight and efficient deployment.
 
-### **Data Analyst | [Company Name] | [Dates]**
-- **Project 5:** *Sales Forecasting*  
-  - Conducted time series analysis and forecasting using ARIMA and Prophet to predict sales trends for the next 6-12 months, providing valuable insights to the finance and inventory management teams.
-  - Improved sales predictions by 20% by incorporating external factors such as holidays and marketing promotions.
+### **Project 4: Movie Recommendation System**  
+- Developed a **personalized movie recommendation system** using **collaborative filtering and content-based filtering** techniques.  
+- Implemented **Matrix Factorization (SVD, ALS)** and **Cosine Similarity** to recommend movies based on user preferences and viewing history.  
+- Utilized **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Word2Vec** to analyze movie descriptions, genres, and cast for content-based recommendations.  
+- Trained the model on the **MovieLens dataset**, achieving **high recommendation accuracy** with optimized hyperparameters.  
+- Built a **hybrid recommendation system** that combines **user-item collaborative filtering** and **content-based filtering** for improved predictions.  
+- Developed a **web-based interface using Flask and React**, allowing users to search for movies and receive real-time recommendations.  
 
----
+
 
 ## **Education**
 
-### **Bachelor’s in Data Science | [Bahria University Islamabad] | [2025]**
+### **Bachelor’s in Data Science | [Bahria University Islamabad] | [2021-2025]**
 - Relevant Coursework: Machine Learning, Intro to Data Science,  Artificial Intelligence, Digitial Image Processing
 - FYP: *Predicting MRI Disease Outbreaks Using Neural Network with Flutter App for Client & Patient *
 
