@@ -26,10 +26,14 @@ I am a passionate and results-driven Data Scientist with 1 years of experience i
 
 ## **Work Experience**
 
-### **Data Scientist | [Company Name] | [Dates]**
-- **Project 1:** *Modeling Customer Churn Prediction*  
-  - Developed and deployed a machine learning model to predict customer churn using a combination of logistic regression and decision trees. Achieved an accuracy of 87% and reduced churn by 15% within six months.
-  - Conducted feature engineering to identify key factors influencing churn and worked closely with the marketing team to implement retention strategies.
+### **Data Scientist **
+### **Project 1: Vehicle Classification System**  
+- Developed and deployed a machine learning model capable of classifying **10 different types of vehicles** based on image data.  
+- Utilized **Convolutional Neural Networks (CNNs)** with architectures like ResNet and VGG16 for feature extraction and classification.  
+- Collected and preprocessed a large dataset of vehicle images, performing **data augmentation** to improve model generalization.  
+- Achieved an **accuracy of over 90%** by fine-tuning hyperparameters and applying transfer learning techniques.  
+- Deployed the model using **Flask and TensorFlow Serving**, enabling real-time vehicle classification via a web interface.  
+- Optimized inference speed and accuracy, making the system suitable for **traffic surveillance, autonomous vehicles, and smart city applications**.
 
 - **Project 2:** *Financial Fraud Detection*  
   - Built a robust anomaly detection system for detecting fraudulent transactions in a banking dataset using Random Forest and Isolation Forest models.  
