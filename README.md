@@ -53,13 +53,11 @@ I am a passionate and results-driven Data Scientist with 1 years of experience i
 
 ## **Education**
 
-### **Master’s in Data Science | [University Name] | [Graduation Year]**
-- Relevant Coursework: Machine Learning, Data Mining, Statistical Modeling, Artificial Intelligence, Big Data Analytics
-- Thesis: *Predicting Disease Outbreaks Using Machine Learning*
+### **Bachelor’s in Data Science | [Bahria University Islamabad] | [2025]**
+- Relevant Coursework: Machine Learning, Intro to Data Science,  Artificial Intelligence, Digitial Image Processing
+- FYP: *Predicting MRI Disease Outbreaks Using Neural Network with Flutter App for Client & Patient *
 
-### **Bachelor’s in Computer Science | [University Name] | [Graduation Year]**
 
----
 
 ## **Certifications**
 
