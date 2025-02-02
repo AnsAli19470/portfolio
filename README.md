@@ -35,9 +35,14 @@ I am a passionate and results-driven Data Scientist with 1 years of experience i
 - Deployed the model using **Flask and TensorFlow Serving**, enabling real-time vehicle classification via a web interface.  
 - Optimized inference speed and accuracy, making the system suitable for **traffic surveillance, autonomous vehicles, and smart city applications**.
 
-- **Project 2:** *Financial Fraud Detection*  
-  - Built a robust anomaly detection system for detecting fraudulent transactions in a banking dataset using Random Forest and Isolation Forest models.  
-  - Successfully reduced false positive rates by 20% and improved fraud detection accuracy by 25% using ensemble models and hyperparameter tuning.
+### **Project 2: Alzheimer's Disease Detection**  
+- Developed a **deep learning model** to detect **Alzheimer's disease** at different stages using **MRI scan images**.  
+- Implemented **Convolutional Neural Networks (CNNs)** with architectures like **ResNet50 and InceptionV3** for accurate classification of brain scans into **Normal, Mild Cognitive Impairment (MCI), and Alzheimer's**.  
+- Preprocessed MRI images using **grayscale conversion, normalization, and augmentation** to enhance model performance.  
+- Achieved **over 92% accuracy** in classifying Alzheimer's stages using a dataset from **ADNI (Alzheimer’s Disease Neuroimaging Initiative)**.  
+- Applied **Grad-CAM (Gradient-weighted Class Activation Mapping)** to visualize the regions of interest in MRI scans for better interpretability.  
+- Deployed the model using **Flask and Streamlit**, allowing doctors and researchers to upload MRI scans for **real-time diagnosis**.  
+- Integrated the system into **cloud platforms (AWS/GCP)** for scalable and remote access to Alzheimer's detection services.
 
 ### **Machine Learning Engineer | [Company Name] | [Dates]**
 - **Project 3:** *Healthcare Diagnostics System*  
