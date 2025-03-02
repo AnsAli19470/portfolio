@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ans Ali - Data Scientist Portfolio</title>
+  <!-- Link to CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- Ionicons for Icons -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="script.js"></script>
+  <!-- Link to JavaScript -->
+  <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -15,7 +18,7 @@
   <main>
 
     <!-- Sidebar -->
-    <aside class="sidebar">
+    <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
         <div class="avatar-box">
           <img src="avatar.jpg" alt="Ans Ali" width="120">
@@ -76,7 +79,7 @@
     <div class="main-content">
 
       <!-- About Section -->
-      <article class="about active">
+      <article class="about active" data-page="about">
         <header>
           <h2 class="h2 article-title">About Me</h2>
         </header>
@@ -88,7 +91,7 @@
       </article>
 
       <!-- Skills Section -->
-      <article class="skills">
+      <article class="skills" data-page="skills">
         <header>
           <h2 class="h2 article-title">Technical Skills</h2>
         </header>
@@ -133,7 +136,7 @@
       </article>
 
       <!-- Work Experience Section -->
-      <article class="experience">
+      <article class="experience" data-page="experience">
         <header>
           <h2 class="h2 article-title">Work Experience</h2>
         </header>
@@ -171,7 +174,7 @@
       </article>
 
       <!-- Education Section -->
-      <article class="education">
+      <article class="education" data-page="education">
         <header>
           <h2 class="h2 article-title">Education</h2>
         </header>
@@ -194,7 +197,7 @@
       </article>
 
       <!-- Certifications Section -->
-      <article class="certifications">
+      <article class="certifications" data-page="certifications">
         <header>
           <h2 class="h2 article-title">Certifications</h2>
         </header>
@@ -214,12 +217,12 @@
       </article>
 
       <!-- Projects Section -->
-      <article class="projects">
+      <article class="projects" data-page="projects">
         <header>
           <h2 class="h2 article-title">Projects</h2>
         </header>
         <section class="project-list">
-          <div class="project-item active">
+          <div class="project-item active" data-filter-item data-category="machine-learning">
             <a href="#">
               <figure class="project-img">
                 <img src="project1.jpg" alt="Vehicle Classification System">
@@ -231,7 +234,7 @@
               <p class="project-category">Machine Learning</p>
             </a>
           </div>
-          <div class="project-item active">
+          <div class="project-item active" data-filter-item data-category="deep-learning">
             <a href="#">
               <figure class="project-img">
                 <img src="project2.jpg" alt="Alzheimer's Disease Detection">
@@ -243,7 +246,7 @@
               <p class="project-category">Deep Learning</p>
             </a>
           </div>
-          <div class="project-item active">
+          <div class="project-item active" data-filter-item data-category="transfer-learning">
             <a href="#">
               <figure class="project-img">
                 <img src="project3.jpg" alt="Cats and Dogs Classification">
@@ -255,7 +258,7 @@
               <p class="project-category">Transfer Learning</p>
             </a>
           </div>
-          <div class="project-item active">
+          <div class="project-item active" data-filter-item data-category="recommendation-systems">
             <a href="#">
               <figure class="project-img">
                 <img src="project4.jpg" alt="Movie Recommendation System">
@@ -271,7 +274,7 @@
       </article>
 
       <!-- Interests Section -->
-      <article class="interests">
+      <article class="interests" data-page="interests">
         <header>
           <h2 class="h2 article-title">Interests</h2>
         </header>
