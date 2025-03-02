@@ -1,17 +1,20 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f8f9fa;
   color: #333;
 }
 
+/* Header */
 header {
-  background: #333;
+  background: #222;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
@@ -21,47 +24,65 @@ header .logo {
 }
 
 header .logo img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 12px;
+  border: 2px solid #fff;
 }
 
+header .logo h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Navigation */
 nav ul {
   list-style: none;
   padding: 0;
+  text-align: center;
+  margin-top: 10px;
 }
 
 nav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 nav ul li a {
-  color: #fff;
+  color: #f8f9fa;
   text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
 }
 
+nav ul li a:hover {
+  color: #17a2b8;
+}
+
+/* Sections */
 section {
   padding: 2rem;
-  margin: 1rem auto;
-  max-width: 800px;
+  margin: 2rem auto;
+  max-width: 900px;
   background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  border-bottom: 2px solid #333;
+  border-bottom: 3px solid #222;
   padding-bottom: 0.5rem;
+  font-size: 1.8rem;
+  color: #222;
 }
 
+/* Footer */
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #333;
+  padding: 1.2rem;
+  background: #222;
   color: #fff;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  font-size: 0.9rem;
+  margin-top: 3rem;
 }
