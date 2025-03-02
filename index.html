@@ -3,86 +3,286 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ANS ALI - Data Scientist</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="assets/IMG-20241209-WA0108.jpg" type="image/jpg">
+  <title>Ans Ali - Data Scientist Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-  <!-- Header Section -->
-  <header>
-    <div class="logo">
-      <img src="assets/logo.jpg" alt="Logo">
-      <h1>ANS ALI</h1>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-info">
+        <div class="avatar-box">
+          <img src="avatar.jpg" alt="Ans Ali" width="120">
+        </div>
+        <div class="info-content">
+          <h1 class="name">Ans Ali</h1>
+          <p class="title">Data Scientist</p>
+        </div>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:ansali194700@gmail.com" class="contact-link">ansali194700@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/ans-ali-9b9029268" class="contact-link" target="_blank">LinkedIn Profile</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Taxila, Pakistan</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ans-ali-9b9029268" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+      <!-- About Section -->
+      <article class="about active">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a passionate and results-driven Data Scientist with 1 year of experience in developing and deploying machine learning models to solve complex problems. With a strong background in statistics, computer science, and data engineering, I specialize in data preprocessing, building machine learning pipelines, feature engineering, and model evaluation. My work spans across industries, including healthcare, finance, and e-commerce. I am skilled in utilizing advanced algorithms to extract valuable insights and deliver actionable business solutions.
+          </p>
+        </section>
+      </article>
+
+      <!-- Skills Section -->
+      <article class="skills">
+        <header>
+          <h2 class="h2 article-title">Technical Skills</h2>
+        </header>
+        <section class="skills-list">
+          <div class="skill">
+            <div class="title-wrapper">
+              <h3 class="h3">Python</h3>
+              <data value="90">90%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="title-wrapper">
+              <h3 class="h3">Machine Learning</h3>
+              <data value="85">85%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="title-wrapper">
+              <h3 class="h3">Deep Learning</h3>
+              <data value="80">80%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="title-wrapper">
+              <h3 class="h3">Data Visualization</h3>
+              <data value="75">75%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Work Experience Section -->
+      <article class="experience">
+        <header>
+          <h2 class="h2 article-title">Work Experience</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <h3 class="h3">Data Scientist</h3>
+          </div>
+          <ul class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Vehicle Classification System</h4>
+              <p>
+                Developed and deployed a machine learning model capable of classifying <strong>10 different types of vehicles</strong> based on image data. Utilized <strong>Convolutional Neural Networks (CNNs)</strong> with architectures like ResNet and VGG16. Achieved <strong>90% accuracy</strong> and deployed the model using <strong>Flask and TensorFlow Serving</strong>.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Alzheimer's Disease Detection</h4>
+              <p>
+                Developed a deep learning model to detect <strong>Alzheimer's disease</strong> using MRI scan images. Achieved <strong>92% accuracy</strong> and deployed the model using <strong>Flask and Streamlit</strong>.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cats and Dogs Classification</h4>
+              <p>
+                Built an image classification model using <strong>transfer learning</strong> with architectures like VGG16 and ResNet50. Achieved <strong>98% accuracy</strong> and deployed the model using <strong>Flask and TensorFlow Lite</strong>.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Movie Recommendation System</h4>
+              <p>
+                Developed a <strong>hybrid recommendation system</strong> using collaborative filtering and content-based filtering. Trained on the <strong>MovieLens dataset</strong> and deployed using <strong>Flask and React</strong>.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Education Section -->
+      <article class="education">
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <h3 class="h3">Bachelor’s in Data Science</h3>
+            <p>Bahria University Islamabad | 2021 - 2025</p>
+          </div>
+          <ul class="timeline-list">
+            <li class="timeline-item">
+              <p>
+                Relevant Coursework: Machine Learning, Intro to Data Science, Artificial Intelligence, Digital Image Processing.
+              </p>
+              <p>
+                FYP: <em>Predicting MRI Disease Outbreaks Using Neural Network with Flutter App for Client & Patient</em>.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Certifications Section -->
+      <article class="certifications">
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+        <section class="timeline">
+          <ul class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Deep Learning Specialization | Coursera</h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Machine Learning | Stanford University (Coursera)</h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python | University of Michigan (Coursera)</h4>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Projects Section -->
+      <article class="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="project-list">
+          <div class="project-item active">
+            <a href="#">
+              <figure class="project-img">
+                <img src="project1.jpg" alt="Vehicle Classification System">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </figure>
+              <h3 class="project-title">Vehicle Classification System</h3>
+              <p class="project-category">Machine Learning</p>
+            </a>
+          </div>
+          <div class="project-item active">
+            <a href="#">
+              <figure class="project-img">
+                <img src="project2.jpg" alt="Alzheimer's Disease Detection">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </figure>
+              <h3 class="project-title">Alzheimer's Disease Detection</h3>
+              <p class="project-category">Deep Learning</p>
+            </a>
+          </div>
+          <div class="project-item active">
+            <a href="#">
+              <figure class="project-img">
+                <img src="project3.jpg" alt="Cats and Dogs Classification">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </figure>
+              <h3 class="project-title">Cats and Dogs Classification</h3>
+              <p class="project-category">Transfer Learning</p>
+            </a>
+          </div>
+          <div class="project-item active">
+            <a href="#">
+              <figure class="project-img">
+                <img src="project4.jpg" alt="Movie Recommendation System">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </figure>
+              <h3 class="project-title">Movie Recommendation System</h3>
+              <p class="project-category">Recommendation Systems</p>
+            </a>
+          </div>
+        </section>
+      </article>
+
+      <!-- Interests Section -->
+      <article class="interests">
+        <header>
+          <h2 class="h2 article-title">Interests</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Machine Learning Research, AI in Healthcare, Data Visualization, Open Source Projects, Sports Analytics.
+          </p>
+        </section>
+      </article>
+
     </div>
-    <nav>
-      <ul>
-        <li><a href="#summary">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="assets/Grey & white a4 Clean CV Resume_20240602_174839_0000.pdf" download class="btn">Download CV</a></li>
-      </ul>
-    </nav>
-  </header>
+  </main>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Data Scientist | AI & ML Expert</h2>
-    <p>Transforming data into actionable insights with AI-driven solutions.</p>
-    <a href="#projects" class="btn">View Projects</a>
-  </section>
-
-  <!-- About Me -->
-  <section id="summary">
-    <h2>About Me</h2>
-    <p>I'm a passionate Data Scientist specializing in AI, Machine Learning, and Deep Learning. I create predictive models that drive innovation in healthcare, finance, and e-commerce.</p>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>Python, SQL, TensorFlow, PyTorch, Scikit-learn</li>
-      <li>Deep Learning, NLP, Computer Vision</li>
-      <li>Power BI, Tableau, MySQL, PostgreSQL</li>
-      <li>AWS, Google Cloud, Docker</li>
-    </ul>
-  </section>
-
-  <!-- Experience -->
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="job">
-      <h3>AI-Powered Vehicle Classification System</h3>
-      <p>Built a deep learning model for vehicle classification using CNNs.</p>
-    </div>
-    <div class="job">
-      <h3>Fraud Detection in Financial Transactions</h3>
-      <p>Developed an anomaly detection model using Isolation Forest & Autoencoders.</p>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div id="project-list"></div>
-    <input type="file" id="projectUpload" accept="image/*">
-    <button onclick="uploadProject()">Upload Project</button>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:ansali194700@gmail.com">ansali194700@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ans-ali" target="_blank">linkedin.com/in/ans-ali</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 ANS ALI | Data Scientist</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
